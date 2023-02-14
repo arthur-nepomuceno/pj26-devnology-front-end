@@ -1,0 +1,43 @@
+.input#link {
+    position: absolute;
+
+    width: 53vw;
+
+    top: 33vh;
+    left: 17vw;
+}
+
+.button {
+    position: absolute;
+
+    width: 13vw;
+    height: 6vh;
+    top: 33vh;
+    left: 75vw;
+}
+
+.title {
+    position: absolute;
+
+    width: 14vw;
+    height: 8vh;
+    top: 9vh;
+    left: 35vw;
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 4vw;
+    line-height: 80px;
+
+    color: #000000;
+}
+
+.logo {
+    position: absolute;
+    
+    width: 7vw;
+    height: 10vh;
+    top: 11vh;
+    left: 55vw;
+}

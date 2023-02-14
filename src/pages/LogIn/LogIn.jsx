@@ -16,9 +16,9 @@ export function LogIn() {
             <h1 className='title'>FavLinks</h1>
             <h3 className='subtitle'>Seus melhores links; todo o tempo.</h3>
             <img src={logo} className='logo'/>
-            <Input type='email' id='email' name='email' className='input' placeholder='email' />
-            <Input type='password' id='password' name='password' className='input' placeholder='password' />
-            <Button type='button' className='button' text='Entrar'></Button>
+            <Input type='email' id='email' name='email'  placeholder='email' />
+            <Input type='password' id='password' name='password' placeholder='password' />
+            <Button type='button' id='entry' text='Entrar'></Button>
             <h4 className='access' onClick={goToSignUp}>Ainda não tem cadastro? Se inscreva!</h4>
         </>
     )
