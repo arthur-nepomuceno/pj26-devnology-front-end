@@ -1,0 +1,20 @@
+.button {
+    position: absolute;
+
+    width: 13vw;
+    height: 6vh;
+    top: 58vh;
+    left: 43vw;
+
+    background: #5D9040;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 18px;
+    color: #FFFFFF;
+}

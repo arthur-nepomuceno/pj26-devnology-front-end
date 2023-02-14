@@ -1,0 +1,29 @@
+.input {
+    position: absolute;
+    width: 50vw;
+    height: 6vh;
+    left: 23vw;
+
+    border: 1px solid rgba(120, 177, 89, 0.25);
+    box-shadow: 0px 4px 24px rgba(120, 177, 89, 0.12);
+    border-radius: 12px;
+    padding-left: 15px;
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+.input::placeholder {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 18px;
+
+    color: #9C9C9C;
+}

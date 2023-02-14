@@ -1,0 +1,77 @@
+.input#email {
+    top: 31vh;
+}
+
+.input#password {
+    top: 40vh;
+}
+
+.input#confirm {
+    top: 48vh;
+}
+
+
+h1.title {
+    position: absolute;
+
+    width: 14vw;
+    height: 8vh;
+    top: 9vh;
+    left: 35vw;
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 4vw;
+    line-height: 80px;
+
+    color: #000000;
+}
+
+h2.subtitle {
+    position: absolute;
+
+    width: 23vw;
+    height: 8vh;
+    top: 18vh;
+    left: 40vw;
+
+    font-family: 'Lexend Deca';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1vw;
+    line-height: 80px;
+
+    color: #000000;
+}
+
+
+.logo {
+    position: absolute;
+    
+    width: 7vw;
+    height: 10vh;
+    top: 11vh;
+    left: 55vw;
+}
+
+.access {
+    position: absolute;
+
+    width: 23vw;
+    height: 8vh;
+    top: 62vh;
+    left: 41vw;
+
+    font-family: 'Lexend Deca';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1vw;
+    line-height: 80px;
+
+    color: #000000;
+}
+
+.access:hover {
+    cursor: pointer;
+}
