@@ -11,6 +11,10 @@ export function LogIn() {
         navigate('/signup')
     }
 
+    function logIn() {
+        navigate('/links')
+    }
+
     return (
         <>
             <h1 className='title'>FavLinks</h1>
@@ -18,7 +22,7 @@ export function LogIn() {
             <img src={logo} className='logo'/>
             <Input type='email' id='email' name='email'  placeholder='email' />
             <Input type='password' id='password' name='password' placeholder='password' />
-            <Button type='button' id='entry' text='Entrar'></Button>
+            <Button type='button' id='entry' text='Entrar' className='login button' onClick={logIn}></Button>
             <h4 className='access' onClick={goToSignUp}>Ainda não tem cadastro? Se inscreva!</h4>
         </>
     )

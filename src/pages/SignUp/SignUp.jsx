@@ -19,7 +19,7 @@ export function SignUp() {
             <Input type='email' id='email' name='email' className='input' placeholder='email' />
             <Input type='password' id='password' name='password' className='input' placeholder='password' />
             <Input type='password' id='confirm' name='confirm' className='input' placeholder='confirm' />
-            <Button type='button' id='register' text='Criar Conta'></Button>
+            <Button type='button' id='register' className='signup button' text='Criar Conta'></Button>
             <h4 className='register' onClick={goToLogIn}>Já tem cadastro? Acesse!</h4>
         </>
     )

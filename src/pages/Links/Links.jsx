@@ -13,9 +13,13 @@ export function Links() {
             <h1 className='title'>FavLinks</h1>
             <img src={logo} className='logo'/>
             <Input type='link' id='link' name='link' placeholder='insira aqui o seu link'/>
-            <Button type='button' className='button' text='Adicionar'></Button>
+            <Button type='button' className='add button' text='Adicionar'></Button>
             <Div>
-                <Url />
+                <Url
+                    title='Link de Teste'
+                    url='https://www.figma.com/file/DWg9233KR2GS6RLvfZRwyd/Shortly?node-id=0%3A1&t=1HeHuHhmu6KaFuiw-0'
+                    description='kahsdjkahdkja alksdjakjdlajsd p31391239283019283'
+                />
                 <Url />
             </Div>
         </>

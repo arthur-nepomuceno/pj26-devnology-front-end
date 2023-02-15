@@ -3,8 +3,6 @@
 
     width: 13vw;
     height: 6vh;
-    top: 58vh;
-    left: 43vw;
 
     background: #5D9040;
     border-radius: 12px;
@@ -17,4 +15,14 @@
     font-size: 21px;
     line-height: 18px;
     color: #FFFFFF;
+}
+
+.signup, .login {
+    top: 58vh;
+    left: 43vw;
+}
+
+.add {
+    top: 33vh;
+    left: 75vw;
 }

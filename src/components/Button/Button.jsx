@@ -1,7 +1,9 @@
 import '../Button/button.styles.css'
 
-export function Button({type, id, text}) {
+export function Button({ ...others }) {
+    const { type, id, text, className, onClick } = others
+
     return (
-        <button type={type} id={id} className='button'>{text}</button>
+        <button type={type} id={id} className={className} onClick={onClick}>{text}</button>
     )
 }

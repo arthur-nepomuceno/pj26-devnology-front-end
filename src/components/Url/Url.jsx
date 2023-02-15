@@ -1,14 +1,17 @@
 import styled from 'styled-components'
 import '../Url/url.styles.css'
 
-export function Url() {
+export function Url({ ...props }) {
+    const { title, url, description } = props
+
     return (
         <Div>
             <div className='url'>
-                test
+                <a href={url} target='_blank'>{title}</a>
+                <p>{description}</p>
             </div>
             <div className='edit'>
-                edit 
+                edit
             </div>
             <div className='delete'>
                 delete
