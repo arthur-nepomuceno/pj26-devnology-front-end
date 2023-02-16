@@ -4,14 +4,17 @@ import { UserContext } from '../contexts/UserContext'
 import { useState } from 'react'
 
 export function Routes() {
-    const [email, setEmail] = useState();
-    const [password, setPassword] = useState();
+    const [email, setEmail] = useState()
+    const [password, setPassword] = useState()
+    const [token, setToken] = useState()
 
     const context = {
         email,
         setEmail,
         password,
-        setPassword
+        setPassword,
+        token,
+        setToken
     }
 
     return (
