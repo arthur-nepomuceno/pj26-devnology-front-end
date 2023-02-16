@@ -17,7 +17,12 @@
     color: #FFFFFF;
 }
 
-.signup, .login {
+.button:hover {
+    cursor: pointer;
+}
+
+.signup,
+.login {
     top: 58vh;
     left: 43vw;
 }
