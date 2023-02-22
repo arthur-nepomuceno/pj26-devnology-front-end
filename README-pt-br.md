@@ -13,7 +13,7 @@
 
 ## Avisos
 
-1. Para utilizar esta aplicação, certifique-se de ter baixado e inicializado o back-end, disponivel clicando [aqui](https://github.com/arthur-nepomuceno/pj26-devnology-beck-end/blob/master/README-pt-br.md). Somente depois de ter seguido esse passo é que você deve esperar que este front-end funcione.
+1. Para utilizar esta aplicação, certifique-se de ter feito o download e inicializado o back-end, disponivel clicando [aqui](https://github.com/arthur-nepomuceno/pj26-devnology-beck-end/blob/master/README-pt-br.md). Somente depois de ter seguido esse passo é que você deve esperar que este front-end funcione.
 
 2. Este front-end é desenvolvido, até o presente momento, para telas na proporção de 1440 x 1084 pixels. Para sua melhor visualição, ao abri-lo em seu navegador, aperte as teclas "ctrl + shift + i" para abrir o console, e então altere a proporção da tela para 1440 pixels de largura e 1084 pixels de altura.
 
@@ -44,19 +44,7 @@
    - Tela de Novo Contrato: tela exibindo os dados da nota fiscal para preenchimento, mediante seleção de contrato na tela anterior.
    
    Para utilizar a aplicação, insira na tela inicial qualquer um dos seguintes valores para o CNPJ:
-   - 02.828.446/0001-34
-   - 72.610.132/0001-46
-   - 01.874.354/0001-28
-   - 04.220.692/0001-34
-   - 12.146.377/0001-32
-   - 06.034.513/0001-08
-   - 02.006.030/0001-30
-   - 15.358.677/0001-73
-   - 07.744.937/0001-10
-   - 07.126.280/0001-28
-   - 09.159.197/0001-80
-   - 25.144.592/0001-46
-   - 13.715.241/0001-69
+   - 
    
 ***
 
