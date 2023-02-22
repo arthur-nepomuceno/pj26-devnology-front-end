@@ -15,11 +15,11 @@
 
 1. Para utilizar esta aplicação, certifique-se de ter feito o download e inicializado o back-end na sua máquina local, clicando [aqui](https://github.com/arthur-nepomuceno/pj26-devnology-beck-end/blob/master/README-pt-br.md). Somente depois de ter seguido esse passo é que você deve esperar que este front-end funcione.
 
-2. Este front-end é desenvolvido, até o presente momento, para telas na proporção de 1440 x 1084 pixels. Para sua melhor visualição, ao abri-lo em seu navegador, aperte as teclas "ctrl + shift + i" para abrir o console, e então altere a proporção da tela para 1440 pixels de largura e 1084 pixels de altura.
+2. Este front-end é desenvolvido, até o presente momento, para telas na proporção de 1440 x 1084 pixels. Para sua melhor visualização, ao abri-lo em seu navegador, aperte as teclas "ctrl + shift + i" para abrir o console, e então altere a proporção da tela para 1440 pixels de largura e 1084 pixels de altura.
 
 ## Deploy
 
-[https://pj25-vflows-vite.vercel.app/](https://pj26-devnology-front-end.vercel.app/)
+[pj26-devnology-front-end](https://pj26-devnology-front-end.vercel.app/)
 
 ## Sumário
    - [Apresentação](#apresentação)
@@ -31,20 +31,17 @@
 
 
 ## Apresentação
-   Este projeto é o front-end de uma aplicação para emissão de folhas de pagamento de fornecedores.
-   Com um CNPJ devidamente registrado e válido, uma empresa pode se conectar, visualizar os contratos disponíveis
-   e então emitir uma nota fiscal, com valores, data e dados de impostos específicos para cada caso.
+   Este projeto é o front-end de uma API para armazenamento de links. O objetivo é prover uma plataforma onde o usuário possa se cadastrar e então manter
+   um acompanhamento dos seus links favoritos, que podem ser de todo e qualquer tipo. Após cadastrar-se, um usuário deve poder adicionar, visualizar,
+   editar e excluir links.
    
 ***
 
 ## Introdução
    Este projeto é desenvolvido em React (ViteJS), constituído de três telas:
-   - Tela de Login: tela de entrada da aplicação. Nela, um usuário informa o CNPJ de sua empresa para acessar as demais telas.
-   - Tela de Contratos: tela exibindo os principais dados da empresa, junto com uma lista de contratos para emissão de nota fiscal.
-   - Tela de Novo Contrato: tela exibindo os dados da nota fiscal para preenchimento, mediante seleção de contrato na tela anterior.
-   
-   Para utilizar a aplicação, insira na tela inicial qualquer um dos seguintes valores para o CNPJ:
-   - 
+   - Tela de Cadastros: tela para um novo usuário inserir os seus dados e se cadastrar no sistema.
+   - Tela de Login: tela de entrada da aplicação. Nela, um usuário informa o email cadastrado para acessar as demais telas.
+   - Tela de Links: tela de acesso aos links regitrados. 
    
 ***
 
@@ -53,10 +50,7 @@
     - React-Router-Dom
     - Styed-Components
     - ContextAPI
-    - Unform
-    - Eslint
-    - Prettier
-    - React-Input-Mask
+    - Axios
 
 ***
 
@@ -66,7 +60,7 @@ Este projeto foi inicializado com o Node Package Manager, então certifique-se q
 Primeiro, faça o clone desse repositório na sua maquina:
 
 ```
-git clone https://github.com/arthur-nepomuceno/pj25-vflows-vite.git
+git clone https://github.com/arthur-nepomuceno/pj26-devnology-front-end.git
 ```
 
 Depois, dentro da pasta, rode o seguinte comando para instalar as dependencias.
@@ -75,9 +69,15 @@ Depois, dentro da pasta, rode o seguinte comando para instalar as dependencias.
 npm install
 ```
 
-Finalizado o processo, é só inicializar o servidor
+Finalizado o processo, é só inicializar o servidor.
 ```
 npm run dev
+```
+
+Por fim, para utilizar a aplicação, insira na tela de login os seguintes valores para email e senha:
+```
+email: admin@email.com
+password: admin-devnology
 ```
 ###### [voltar para o sumário](#sumário)
 ***
