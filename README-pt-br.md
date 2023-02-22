@@ -63,7 +63,7 @@ Primeiro, faça o clone desse repositório na sua maquina:
 git clone https://github.com/arthur-nepomuceno/pj26-devnology-front-end.git
 ```
 
-Depois, dentro da pasta, rode o seguinte comando para instalar as dependencias.
+Depois, dentro da pasta, rode o seguinte comando para instalar as dependências.
 
 ```
 npm install
