@@ -13,7 +13,7 @@
 
 ## Avisos
 
-1. Para utilizar esta aplicação, certifique-se de ter feito o download e inicializado o back-end na sua máquina local, clicando [aqui](https://github.com/arthur-nepomuceno/pj26-devnology-beck-end/blob/master/README-pt-br.md). Somente depois de ter seguido esse passo é que você deve esperar que este front-end funcione.
+1. Para utilizar esta aplicação, certifique-se de ter feito o download e inicializado o back-end na sua máquina local, clicando ([aqui](https://github.com/arthur-nepomuceno/pj26-devnology-back-end/blob/master/README-pt-br.md)). Somente depois de ter seguido esse passo é que você deve esperar que este front-end funcione.
 
 2. Este front-end é desenvolvido, até o presente momento, para telas na proporção de 1440 x 1084 pixels. Para sua melhor visualização, ao abri-lo em seu navegador, aperte as teclas "ctrl + shift + i" para abrir o console, e então altere a proporção da tela para 1440 pixels de largura e 1084 pixels de altura.
 
