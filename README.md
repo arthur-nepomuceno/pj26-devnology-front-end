@@ -31,17 +31,15 @@
 
 
 ## Brief in
-   Este projeto é o front-end de uma API para armazenamento de links. O objetivo é prover uma plataforma onde o usuário possa se cadastrar e então manter
-   um acompanhamento dos seus links favoritos, que podem ser de todo e qualquer tipo. Após cadastrar-se, um usuário deve poder adicionar, visualizar,
-   editar e excluir links.
+   This project is the front-and of an API for saving meaningful links. The goal is to provide a platform where a user can signup and keep track of his/her favourite links. After registering, a user must be able to add, visualize, edit and delete links.
    
 ***
 
 ## Introduction
-   Este projeto é desenvolvido em React (ViteJS), constituído de três telas:
-   - Tela de Cadastros: tela para um novo usuário inserir os seus dados e se cadastrar no sistema.
-   - Tela de Login: tela de entrada da aplicação. Nela, um usuário informa o email cadastrado para acessar as demais telas.
-   - Tela de Links: tela de acesso aos links regitrados. 
+   This project is developed with React (ViteJS), constituted of three screens:
+   - Signup: a new user can insert his/her data and register into the system.
+   - Login: the entry screen of the app. A user informs the email, the password and then access.
+   - Links: the user has access to the registered links. 
    
 ***
 
@@ -57,24 +55,24 @@
 ## Running-the-app
 Este projeto foi inicializado com o Node Package Manager, então certifique-se que voce tem a ultima versão estável do [Node.js](https://nodejs.org/en/download/) e [npm](https://www.npmjs.com/) rodando localmente.
 
-Primeiro, faça o clone desse repositório na sua maquina:
+First, clone this repository to your machine:
 
 ```
 git clone https://github.com/arthur-nepomuceno/pj26-devnology-front-end.git
 ```
 
-Depois, dentro da pasta, rode o seguinte comando para instalar as dependências.
+After, inside the folder, run the following command to install the dependencies.
 
 ```
 npm install
 ```
 
-Finalizado o processo, é só inicializar o servidor.
+To finish the process, you simply start the server.
 ```
 npm run dev
 ```
 
-Por fim, para utilizar a aplicação, insira na tela de login os seguintes valores para email e senha:
+At the end, to use this app, insert at the login screen the following values for email and password:
 ```
 email: admin@email.com
 password: admin-devnology
