@@ -11,7 +11,7 @@
    <img src="https://img.shields.io/badge/author-Arthur Nepomuceno-093D04?style=flat-square" />
 </p>
 
-## Warning
+## Start here
 
 1. To use this app, be sure you downloaded and started the backe-end at yur local machine, clicking ([here](https://github.com/arthur-nepomuceno/pj26-devnology-back-end/blob/master/README.md)). Only after you followed these steps you should await for this front-end to work.
 
